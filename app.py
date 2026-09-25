@@ -1,4 +1,4 @@
-      import streamlit as st
+import streamlit as st
 import requests
 
 st.set_page_config(
@@ -67,4 +67,5 @@ if st.button("✨ Generate My Action Plan", use_container_width=True):
                 )
 
         except Exception as e:
-            st.error(f"Connection error: {e}")
+            st.error(f"Connection error: {e}")  
+                    
